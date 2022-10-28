@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;*/
+
+body {
+    font-size: 15px;
+}
+
+.home {
+    background-image: url(img/desktop/image-hero.webp);
+    height: 97vh;
+    background-size: cover;
+    /*filter: brightness(70%);*/
+}
+
+.home .header .nav {
+    display: flex;
+    justify-content: right;
+    font-family: 'Alata', sans-serif;
+    margin: -45px 120px 0px 0;
+}
+
+.home .header .nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.home .header .nav ul li {
+    display: flex;
+    width: 80px;
+}
+
+.home .header .nav ul li a {
+    text-decoration: none;
+    color: white;
+    filter: none;
+    
+    padding: 15px 0px 7px 0px;
+}
+
+.home .header .nav ul li a:hover {
+    transition-duration: 50ms;
+   border-bottom: 2px solid hsl(0, 0%, 100%);
+   padding: 15px 0px 0px 0px;
+}
+
+
+.home .header .logo {
+  margin: 60px 0 0px 150px; 
+}
+
+.home .square {
+    border: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    width: 610px;
+    height: 260px;
+    font-size:43px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 120px 0 0 160px;
+    
+}
+
+.home .square h1 {
+    padding:32px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+
+
+           /**********************
+            **   HOME - BANNER   **
+            ***********************/
+
+.container {
+    width: 78vw;
+    margin:  150px auto 0;
+}
+
+.about {
+    display: flex;
+    background-color:hsl(0, 0%, 100%);
+    width: 70vw;
+    height: 70vh;
+}
+
+.about .vr img {
+    position: absolute;
+    width: 650px;
+}
+
+.about .text {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 350px;
+    right: 7%;
+    margin-top: 160px;
+
+}
+
+.about .text .padding {
+    padding: 80px;
+}
+
+.about .text h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px; 
+}
+
+.about .text p {
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%);
+}   
+
+
+
+
+                  /**********************
+                   **   HOME - BANNER   **
+                  ***********************/
+
+
+.creations {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 200px;
+}
+
+.creations .infos {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.creations .infos h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.creations .infos button {
+    color: hsl(0, 0%, 100%);
+    background-color: black;
+    padding: 0 45px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.creations .infos button:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.178); 
+}
+
+.creations .gallery {
+    display: flex;
+    align-items: center;
+}
+
+.deep {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-deep-earth.jpg);
+}
+
+.night {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-night-arcade.jpg);
+}
+
+.soccer {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-soccer-team.jpg);
+}
+
+.grid{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-grid.jpg);
+}
+
+.from{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-from-above.jpg);
+}
+
+.pocket{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-pocket-borealis.jpg);
+}
+
+.curiosity{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-curiosity.jpg);
+}
+
+.make{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/desktop/image-fisheye.jpg);
+}
+
+
