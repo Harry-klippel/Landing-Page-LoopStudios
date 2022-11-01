@@ -14,14 +14,13 @@ body {
     background-image: url(img/desktop/image-hero.webp);
     height: 97vh;
     background-size: cover;
-    /*filter: brightness(70%);*/
 }
 
-.home .header .nav {
+.home .header {
+    padding: 50px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     font-family: 'Alata', sans-serif;
-    margin: -45px 120px 0px 0;
 }
 
 .home .header .nav ul {
@@ -37,21 +36,32 @@ body {
 .home .header .nav ul li a {
     text-decoration: none;
     color: white;
-    filter: none;
-    
-    padding: 15px 0px 7px 0px;
+    display: flex;
+    justify-content: center;
+   
 }
 
-.home .header .nav ul li a:hover {
-    transition-duration: 50ms;
-   border-bottom: 2px solid hsl(0, 0%, 100%);
-   padding: 15px 0px 0px 0px;
+.teste::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    width: 25px;
+    margin: 30px auto;
+    position: absolute;
 }
 
 
 .home .header .logo {
-  margin: 60px 0 0px 150px; 
+    width: 22%;
+    height: 22%;
 }
+
+/*.home .header .nav ul li a:hover {
+    transition-duration: 50ms;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding: 15px 0px 0px 0px;
+}*/
+
 
 .home .square {
     border: 2px solid hsl(0, 0%, 100%);
@@ -60,9 +70,9 @@ body {
     width: 610px;
     height: 260px;
     font-size:43px;
-    
     font-family: 'Josefin Sans', sans-serif;
     margin: 120px 0 0 160px;
+    
     
 }
 
@@ -80,7 +90,7 @@ body {
 
 .container {
     width: 78vw;
-    margin:  150px auto 0;
+    margin: 0 auto ;
 }
 
 .about {
@@ -88,6 +98,7 @@ body {
     background-color:hsl(0, 0%, 100%);
     width: 70vw;
     height: 70vh;
+    margin-top: 170px;
 }
 
 .about .vr img {
@@ -140,24 +151,22 @@ body {
     display: flex;
     margin-bottom: 100px;
     justify-content: space-between;
+    align-items: end;
 }
 
 .creations .infos h1 {
     color: black;
     text-transform: uppercase;
     font-size: 40px;
-   
-    padding-top: 20px;
-   
 }
 
 .creations .infos button {
     color: hsl(0, 0%, 100%);
     background-color: black;
-    padding: 0 45px;
     letter-spacing: 2px;
     cursor: pointer;
-   
+    width: 150px;
+    height: 40px;
 }
 
 .creations .infos button:hover {
@@ -179,6 +188,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
 }
 
 .creations .gallery div:hover {
@@ -249,3 +259,75 @@ body {
 }
 
 
+
+
+                  /**********************
+                   **    BANNER - FOOTER  **
+                  ***********************/
+
+
+
+.footer {
+    background-color: black;
+    font-family: 'Alata', sans-serif;
+    margin-top: 180px;
+    height: 25vh;
+}
+
+.footer .container {
+    padding-top: 30px;
+}
+
+.footer .divImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .divImg .logo {
+    color: aliceblue;
+    width: 160px;
+}
+
+.footer .social img {
+    margin: 0 10px;
+    
+}
+
+.footer .social a {
+    text-decoration: none;
+}
+
+/*.footer .social a:hover {
+    transition-duration: 50ms;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding: 15px 0px 0px 0px;
+}*/
+
+.footer .navFooter {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.footer .navFooter ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.footer .navFooter a {
+   text-decoration: none;
+   color: aliceblue;
+   margin: 15px 15px 0 10px;
+}
+
+/*.footer .navFooter a:hover {
+    transition-duration: 50ms;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding: 15px 0px 0px 0px;
+}
+*/
+.footer span {
+    color: hsl(0, 0%, 41%);
+    font-size: 15px;
+}
