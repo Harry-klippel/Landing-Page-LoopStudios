@@ -113,6 +113,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     font-size: 40px; 
+   
 }
 
 .about .text p {
@@ -132,6 +133,7 @@ body {
 .creations {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 200px;
+    color: hsl(0, 0%, 100%);
 }
 
 .creations .infos {
@@ -141,8 +143,12 @@ body {
 }
 
 .creations .infos h1 {
+    color: black;
     text-transform: uppercase;
     font-size: 40px;
+   
+    padding-top: 20px;
+   
 }
 
 .creations .infos button {
@@ -151,6 +157,7 @@ body {
     padding: 0 45px;
     letter-spacing: 2px;
     cursor: pointer;
+   
 }
 
 .creations .infos button:hover {
@@ -160,61 +167,84 @@ body {
 .creations .gallery {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-.deep {
-    width: 200px;
-    height: 300px;
+.creations .gallery div {
+    width: 240px;
+    height: 390px;
     background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.creations .gallery div:hover {
+    color: rgb(0, 0, 0);
+}
+
+.creations .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.creations .flex div {
+    width: 240px;
+    height: 390px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.creations span {
+    
+    font-size:30px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    text-shadow: 0.1em 0.2em 0.3em black;
+    filter: none;
+}
+
+
+
+.deep {
     background-image: url(img/desktop/image-deep-earth.jpg);
 }
 
 .night {
-    width: 200px;
-    height: 300px;
-    background-size: cover;
+   
     background-image: url(img/desktop/image-night-arcade.jpg);
 }
 
 .soccer {
-    width: 200px;
-    height: 300px;
-    background-size: cover;
+    
     background-image: url(img/desktop/image-soccer-team.jpg);
 }
 
 .grid{
-    width: 200px;
-    height: 300px;
-    background-size: cover;
     background-image: url(img/desktop/image-grid.jpg);
 }
 
 .from{
-    width: 200px;
-    height: 300px;
-    background-size: cover;
     background-image: url(img/desktop/image-from-above.jpg);
 }
 
 .pocket{
-    width: 200px;
-    height: 300px;
-    background-size: cover;
+ 
     background-image: url(img/desktop/image-pocket-borealis.jpg);
 }
 
 .curiosity{
-    width: 200px;
-    height: 300px;
-    background-size: cover;
+    
     background-image: url(img/desktop/image-curiosity.jpg);
 }
 
-.make{
-    width: 200px;
-    height: 300px;
-    background-size: cover;
+.make {
     background-image: url(img/desktop/image-fisheye.jpg);
 }
 
