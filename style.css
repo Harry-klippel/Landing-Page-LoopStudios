@@ -38,7 +38,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-   
+    padding: 12px ;
 }
 
 .teste::after {
@@ -315,18 +315,22 @@ body {
     
 }
 
+
 .footer .navFooter a {
    text-decoration: none;
    color: aliceblue;
-   margin: 15px 15px 0 10px;
+   margin: 15px 15ps 0 15px;
 }
 
-/*.footer .navFooter a:hover {
-    transition-duration: 50ms;
+.nav2::after {
+    content: '';
+    display: block;
     border-bottom: 2px solid hsl(0, 0%, 100%);
-    padding: 15px 0px 0px 0px;
+    width: 25px;
+    margin: 10px auto;
+    
 }
-*/
+
 .footer span {
     color: hsl(0, 0%, 41%);
     font-size: 15px;
