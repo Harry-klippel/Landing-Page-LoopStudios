@@ -3,8 +3,16 @@
     padding: 0;
 }
 
+
 /*font-family: 'Alata', sans-serif;
 font-family: 'Josefin Sans', sans-serif;*/
+
+.mobileMenu {
+    background-color: black;
+    height: 100vh;
+    display: none;
+    transition: ease-in-out s;
+}
 
 body {
     font-size: 15px;
@@ -12,7 +20,7 @@ body {
 
 .home {
     background-image: url(img/desktop/image-hero.webp);
-    height: 97vh;
+    height: 100vh;
     background-size: cover;
 }
 
@@ -22,6 +30,11 @@ body {
     justify-content: space-between;
     font-family: 'Alata', sans-serif;
 }
+
+.material-symbols-outlined {
+    display: none;
+}
+
 
 .home .header .nav ul {
     list-style: none;
@@ -50,30 +63,20 @@ body {
     position: absolute;
 }
 
-
 .home .header .logo {
     width: 22%;
     height: 22%;
 }
-
-/*.home .header .nav ul li a:hover {
-    transition-duration: 50ms;
-    border-bottom: 2px solid hsl(0, 0%, 100%);
-    padding: 15px 0px 0px 0px;
-}*/
-
 
 .home .square {
     border: 2px solid hsl(0, 0%, 100%);
     color: hsl(0, 0%, 100%);
     text-transform: uppercase;
     width: 610px;
-    height: 260px;
+    height: 260px; 
     font-size:43px;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 120px 0 0 160px;
-    
-    
+    margin: 120px 0 0 160px;   
 }
 
 .home .square h1 {
@@ -87,6 +90,8 @@ body {
            /**********************
             **   HOME - BANNER   **
             ***********************/
+
+
 
 .container {
     width: 78vw;
@@ -102,7 +107,6 @@ body {
 }
 
 .about .vr img {
-    position: absolute;
     width: 650px;
 }
 
@@ -113,7 +117,6 @@ body {
     height: 350px;
     right: 7%;
     margin-top: 160px;
-
 }
 
 .about .text .padding {
@@ -123,8 +126,7 @@ body {
 .about .text h2 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 40px; 
-   
+    font-size: 40px;  
 }
 
 .about .text p {
@@ -135,10 +137,10 @@ body {
 
 
 
-
                   /**********************
                    **   HOME - BANNER   **
                   ***********************/
+
 
 
 .creations {
@@ -169,6 +171,19 @@ body {
     height: 40px;
 }
 
+.creations .flex button {
+    display: none;
+    color: hsl(0, 0%, 0%);
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 13px;
+    width: 180px;
+    height: 48px;
+    margin-top: 20px;
+}
+
 .creations .infos button:hover {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.178); 
 }
@@ -191,15 +206,10 @@ body {
     
 }
 
-.creations .gallery div:hover {
-    color: rgb(0, 0, 0);
-}
-
 .creations .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .creations .flex div {
@@ -212,15 +222,11 @@ body {
 }
 
 .creations span {
-    
     font-size:30px;
     font-weight: 200;
     margin-bottom: 15px;
     text-shadow: 0.1em 0.2em 0.3em black;
-    filter: none;
 }
-
-
 
 .deep {
     background-image: url(img/desktop/image-deep-earth.jpg);
@@ -259,19 +265,15 @@ body {
 }
 
 
-
-
                   /**********************
                    **    BANNER - FOOTER  **
                   ***********************/
-
-
 
 .footer {
     background-color: black;
     font-family: 'Alata', sans-serif;
     margin-top: 180px;
-    height: 25vh;
+    height: 35vh;
 }
 
 .footer .container {
@@ -288,20 +290,32 @@ body {
     width: 160px;
 }
 
+.footer .social {
+    display: flex;
+}
+
+.footer .social div {
+    display: flex;
+    align-items: end;
+}
+
 .footer .social img {
-    margin: 0 10px;
-    
+    padding: 0 10px;
 }
 
 .footer .social a {
     text-decoration: none;
 }
 
-/*.footer .social a:hover {
-    transition-duration: 50ms;
+.social2::after {
+    content: '';
+    display: block;
     border-bottom: 2px solid hsl(0, 0%, 100%);
-    padding: 15px 0px 0px 0px;
-}*/
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
 
 .footer .navFooter {
     display: flex;
@@ -315,23 +329,35 @@ body {
     
 }
 
+.footer .navFooter ul li {
+    display: flex;
+    justify-content: center;
+}
 
 .footer .navFooter a {
    text-decoration: none;
    color: aliceblue;
-   margin: 15px 15ps 0 15px;
+   padding: 15px 15px 0 15px;
 }
 
 .nav2::after {
     content: '';
-    display: block;
+    display: flex;
     border-bottom: 2px solid hsl(0, 0%, 100%);
     width: 25px;
     margin: 10px auto;
-    
 }
 
-.footer span {
+.footer .divImg .navFooter {
+    display: none;
+}
+
+
+.footer .navFooter span {
     color: hsl(0, 0%, 41%);
     font-size: 15px;
+    padding: 15px;
 }
+
+
+
