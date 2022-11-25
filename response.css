@@ -1,0 +1,261 @@
+
+.home .mobileMenu .head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.home .mobileMenu .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0 0 15px;
+}
+
+.home .mobileMenu .menu ul li a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    padding: 12px;
+}
+
+.home .mobileMenu .head img {
+    width: 160px;
+    height: 30px;
+    padding: 15px 0 0px 35px;
+}
+
+@media (max-width: 600px){
+    .home {
+        background-image: url(img/mobile/image-hero.webp);
+        height: 95vh;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .home .header {
+        padding:40px 0 80px 0;    
+    }
+
+    .material-symbols-outlined {
+        display: block;
+        color: white; 
+        padding: 15px 15px 1px 0;
+        font-size: 37px;
+    }
+
+    .home .header .nav {
+        display: none;
+    }
+
+    .home .header .logo {
+        width: 160px;
+        height: 30px;
+        padding: 15px 0 0 25px;
+    }
+
+    .home .square {
+        width: 88vw;
+        height: 55vw; 
+        font-size:6.8vw;
+        margin: 120px auto;
+    }
+   
+    .container {
+        width: 95vw;
+    }
+
+    .about {
+        display: block;
+        margin-top: 140px;
+        height: 70vh;
+    }  
+
+    .about .vr img {
+        width: 85vw;
+        margin-left: 21px;
+    } 
+        
+    .about .text {
+        position:none; 
+        width: 320px;
+        height: 300px;
+        margin-top: 70px;
+        right: 0%;
+        left: 12%;
+    }   
+        
+    .about .text .padding {
+        padding: 0px;
+    }
+
+    .about .text h2 {
+        font-size: 37px; 
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .about .text p {
+        text-align: center;
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .creations {
+        margin-top: 180px;
+    }
+
+    .creations .infos {
+        margin-bottom: 70px;
+        justify-content: center;
+    }
+
+    .creations .infos h1 {
+        font-size: 36px;
+    }
+
+    .creations .infos button {
+        display: none;
+    }
+    
+    .creations .gallery {
+        margin-bottom: 0px;
+    }
+
+    .creations .gallery div {
+        width: 85vw;
+        height: 35vw;
+        margin-bottom:25px;
+        padding-left: 15px;
+        justify-content: initial;  
+    }
+    
+    .creations .flex div {
+        width: 85vw;
+        height: 35vw;
+        margin-bottom:25px;
+        padding-left: 15px;
+        justify-content: initial; 
+    }
+
+    .creations .flex button {
+        display: block;
+
+    }
+    
+    .deep {
+        background-image: url(img/mobile/image-deep-earth.jpg);
+    }
+    
+    .night {
+       
+        background-image: url(img/mobile/image-night-arcade.jpg);
+    }
+    
+    .soccer {
+        
+        background-image: url(img/mobile/image-soccer-team.jpg);
+    }
+    
+    .grid{
+        background-image: url(img/mobile/image-grid.jpg);
+    }
+    
+    .from{
+        background-image: url(img/mobile/image-from-above.jpg);
+    }
+    
+    .pocket{
+     
+        background-image: url(img/mobile/image-pocket-borealis.jpg);
+    }
+    
+    .curiosity{
+        
+        background-image: url(img/mobile/image-curiosity.jpg);
+    }
+    
+    .make {
+        background-image: url(img/mobile/image-fisheye.jpg);
+    }
+
+    .footer {
+        margin-top: 130px;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .container {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .footer .divImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .divImg .logo {
+        padding-top: 20px;
+        width: 180px;
+        justify-content: center;
+
+    }
+   
+    .footer .social {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    
+    }
+
+    .footer .social .div {
+        justify-content: center;
+        margin-bottom: 140px;
+    }
+
+    .footer .navFooter {
+        display: none;
+    }
+
+    .footer .divImg .navFooter {
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+    }
+
+    .footer .divImg .navFooter ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .footer .divImg .navFooter ul li {
+        padding: 4px 0;
+    }
+
+
+    .footer .navFooter span {
+        display: none;
+    }
+
+    .footer .copy {
+        margin: 0 auto;
+        color: hsl(0, 0%, 41%);
+        font-size: 15px;
+         padding: 10px 0 40px 0;
+    }
+}
+
+
+
